@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/img">
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:id="@+id/coverpic"
+        android:src="@drawable/coverpic"
+        app:civ_border_color="#fffff0"
+        app:civ_border_width="0dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="5"
+        app:civ_shadow_color="#fffff0"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myNameTextView"
+        android:textAlignment="center"
+        android:layout_below="@id/coverpic"
+        android:textStyle="italic"
+        android:text="Raghavendra J"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseTextView"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text = "CIS600"
+        android:textStyle="italic"
+        android:layout_below="@id/myNameTextView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/courseTextView"
+        android:text="Assignment 9"
+        android:textAlignment="center"
+        android:textStyle="italic|bold"/>
+
+</RelativeLayout>
