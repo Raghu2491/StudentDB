@@ -23,7 +23,7 @@ public class MyFirebaseRecylerAdapter extends FirebaseRecyclerAdapter<Movie,MyFi
         super(modelClass,modelLayout,holder,ref);
         this.mContext = context;
     }
-
+/////////
     @Override
     protected void populateViewHolder(MovieViewHolder movieViewHolder, Movie movie, int i) {
 
