@@ -35,7 +35,6 @@
         android:id="@+id/courseTextView"
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text = "CIS600"
         android:textStyle="italic"
         android:layout_below="@id/myNameTextView"/>
 
@@ -43,7 +42,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/courseTextView"
-        android:text="Assignment 9"
         android:textAlignment="center"
         android:textStyle="italic|bold"/>
 
